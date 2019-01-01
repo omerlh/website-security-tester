@@ -5,3 +5,14 @@ The first iteration check for 2 things:
  - [Security.txt](https://securitytxt.org/)
 
  This is just the first version, I want to extend it in the future to run more test - for example, using Zap or Snyk, or maybe even static analysis. 
+
+## Usage
+* Clone the repo:
+```
+git clone git@github.com:omerlh/website-security-tester.git
+```
+* Run the test script:
+```
+./test.sh https://omerlh.info
+```
+Use the address of the website you would like to test instead of my blog :)
